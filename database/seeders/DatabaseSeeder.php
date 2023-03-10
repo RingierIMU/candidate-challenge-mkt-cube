@@ -3,6 +3,7 @@
 namespace Database\Seeders;
 
 use App\Models\Postcard;
+use App\Models\User;
 use Illuminate\Database\Console\Seeds\WithoutModelEvents;
 use Illuminate\Database\Seeder;
 
@@ -13,6 +14,8 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
+        User::factory()->withPersonalTeam()->create();
+
         Postcard::factory()
             ->count(500)
             ->create();
