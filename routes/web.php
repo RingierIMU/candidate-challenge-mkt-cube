@@ -13,8 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+Route::controller(App\Http\Controllers\PostcardController::class)->group(function () {
+    Route::get('/', 'index')->name('postcards.index');
+    Route::get('/postcards/{postcard}', 'show')->name('postcards.show');
 });
 
 Route::middleware([

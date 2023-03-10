@@ -13,7 +13,9 @@ class PostcardController extends Controller
      */
     public function index()
     {
-        //
+        return view('postcards.index', [
+            'postcards' => Postcard::paginate(20)
+        ]);
     }
 
     /**
@@ -37,7 +39,7 @@ class PostcardController extends Controller
      */
     public function show(Postcard $postcard)
     {
-        //
+        return view('postcards.show', compact('postcard'));
     }
 
     /**
