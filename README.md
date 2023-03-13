@@ -71,10 +71,13 @@ You can serve the project at this point by running `php artisan serve`
 
 **Description:** Add pagination tests
 
-Add a set of integration tests using PHPUnit or similar.
+Add a set of Feature tests to the existing `/tests/feature` folder.
+
 Ensure the following is correct:
 - On the first page of results, there is a link to page 2
 - On the second page of results, there is a link to page 1, but that link must not include the parameter `page=1` (this test will fail)
+
+You can use `$response = $this->visit(...)` and `$response->see(...)` to get such a test working.
 
 ---
 
