@@ -61,9 +61,9 @@ You can serve the project at this point by running `php artisan serve`
 ---
 ---
 
-## Tasks
+## TASKS
 
-### Junior Level Tasks (5)
+### JUNIOR LEVEL TASKS (5)
 
 **Ticket: FSDC0001**
 
@@ -145,7 +145,7 @@ Add this check to model's query in the `index` method in `app/Http/Controllers/P
 
 ---
 
-### Middle Level Tasks (5)
+### MIDDLE LEVEL TASKS (5)
 
 **Ticket: FSDC0011**
 
@@ -208,7 +208,7 @@ Add a text input to the search page that will allow a user to enter a string. Wh
 Add tests for this new feature.
 
 ---
-### Senior Level Tasks (3)
+### SENIOR LEVEL TASKS (3)
 
 **Ticket: FSDC0101**
 
@@ -226,7 +226,7 @@ Ensure that the `Sitemap: http://...` entry is included last in the `robots.txt`
 
 **Ticket: FSDC0102**
 
-**Back End**
+**Front End & Back End**
 
 **Description:** Allow postcards to be soft deleted 
 
@@ -249,7 +249,7 @@ Add useful tests. Also, deny access to `/register` and `/dashboard` for all craw
 ---
 ---
 
-## Please follow these Git practices:
+## PLEASE FOLLOW THESE GIT PRACTICES:
 1. Create a feature branch for each task and name the branch with the following pattern: "Ticket ID-Short-Description". So the first ticket's branch would be "FSDC0001-add-pagination-tests"
 1. Commit often, with meaningful commits
 1. Squash & Merge your feature branch directly into the main branch. But only merge when you have tested your ticket's work. If fixes are required after merging, do them as new branches with "Fix" as part of the name
