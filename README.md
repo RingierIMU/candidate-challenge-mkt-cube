@@ -203,7 +203,7 @@ Update the blade template to display the images nicely for the search page and t
 
 **Description:** Add simple search
 
-Add a text input to the search page that will allow a user to enter a string. When the user clicks the `Search` button next to this input field, the page will reload with the postcards that match the entered search text. The entered search text should be matched against the postcard's title.
+Add a text input to the search page that will allow a user to enter a string. When the user clicks the `Search` button next to this input field, the page will reload with the postcards that match the entered search text. The entered search text should be matched against part or all of the postcard's title.
 
 Add tests for this new feature.
 
