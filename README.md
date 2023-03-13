@@ -61,9 +61,9 @@ You can serve the project at this point by running `php artisan serve`
 ---
 ---
 
-### Tasks
+## Tasks
 
-#### Junior Level Tasks (5)
+### Junior Level Tasks (5)
 
 **Ticket: FSDC0001**
 
@@ -145,7 +145,7 @@ Add this check to model's query in the `index` method in `app/Http/Controllers/P
 
 ---
 
-#### Middle Level Tasks (5)
+### Middle Level Tasks (5)
 
 **Ticket: FSDC0011**
 
@@ -165,7 +165,7 @@ Using this knowledge, clean the URL to only include the `page` parameter if it e
 
 **Description:** Only display online postcards
 
-Task FSDC0005 added an `is_draft` check, but a postcard also has an `offline_at` datetime. Add this column as well to the check.
+Task FSDC0005 added an `is_draft` check, but a postcard also has an `online_at` and `offline_at` datetime. Add these columns as well to the check.
 
 Also, display a 410 error page (not a 404 page) for the listing detail page if the listing is not online.
 
@@ -208,7 +208,7 @@ Add a text input to the search page that will allow a user to enter a string. Wh
 Add tests for this new feature.
 
 ---
-#### Senior Level Tasks (3)
+### Senior Level Tasks (3)
 
 **Ticket: FSDC0101**
 
@@ -249,7 +249,7 @@ Add useful tests. Also, deny access to `/register` and `/dashboard` for all craw
 ---
 ---
 
-### Please follow these Git practices:
+## Please follow these Git practices:
 1. Create a feature branch for each task and name the branch with the following pattern: "Ticket ID-Short-Description". So the first ticket's branch would be "FSDC0001-add-pagination-tests"
 1. Commit often, with meaningful commits
 1. Squash & Merge your feature branch directly into the main branch. But only merge when you have tested your ticket's work. If fixes are required after merging, do them as new branches with "Fix" as part of the name
