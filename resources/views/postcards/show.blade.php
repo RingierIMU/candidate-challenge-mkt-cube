@@ -1,4 +1,7 @@
-<x-guest-layout> 
+@section('canonical')
+    <link rel="canonical" href="{{ request()->fullUrl() }}">
+@endsection
+<x-guest-layout>
 	<div class="min-h-full">
 	    <!-- Navbar -->
 	    <nav class="bg-gray-50">
@@ -25,7 +28,7 @@
 	                <div>
 	                  <a href="/" class="text-sm font-medium text-gray-500 hover:text-gray-700">Home</a>
 	                </div>
-	              </li>	              
+	              </li>
 	              <li>
 	                <div class="flex items-center">
 	                	<svg class="h-5 w-5 flex-shrink-0 text-gray-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
