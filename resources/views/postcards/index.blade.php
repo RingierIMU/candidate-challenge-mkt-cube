@@ -1,6 +1,4 @@
-@section('canonical')
-    <link rel="canonical" href="{{ request()->fullUrl() }}">
-@endsection
+
 <x-guest-layout>
 
   <div class="min-h-full">
