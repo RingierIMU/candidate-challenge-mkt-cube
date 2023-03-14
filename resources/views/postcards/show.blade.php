@@ -1,3 +1,4 @@
+
 @section('prev_and_next_links')
     @foreach($postcards as $element)
         @if($element->id==$postcard->id)
