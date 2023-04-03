@@ -252,5 +252,6 @@ Add useful tests. Also, deny access to `/register` and `/dashboard` for all craw
 ## PLEASE FOLLOW THESE GIT PRACTICES:
 1. Create a feature branch for each task and name the branch with the following pattern: "Ticket ID-Short-Description". So the first ticket's branch would be "FSDC0001-add-pagination-tests"
 1. Commit often, with meaningful commits
+1. Create a Pull Request on Github to merge your feature branch into your Main branch on your fork
 1. Squash & Merge your feature branch directly into the main branch. But only merge when you have tested your ticket's work. If fixes are required after merging, do them as new branches with "Fix" as part of the name
 1. Don't delete the branches as we will be reviewing the commit history in them
