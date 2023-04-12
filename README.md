@@ -87,7 +87,7 @@ You can use `$response = $this->visit(...)` and `$response->see(...)` to get suc
 
 **Description:** Add link prev and next to the head 
 
-On the search results page, in the head of the html, add `<link rel="prev" ...>` and `<link rel="next" ...>`. Use the paginated URLs as used by the pagination.
+On the Postcards index page (also known as the search results page), in the head of the html, add `<link rel="prev" ...>` and `<link rel="next" ...>`. Use the paginated URLs as used by the pagination.
 
 Do not render the `prev` link if on the first page. Also, do not render the `next` link if on the last page.
 
