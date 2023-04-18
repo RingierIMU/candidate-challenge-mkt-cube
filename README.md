@@ -47,8 +47,8 @@ We will rate the delivered work based on the expected position level as follows:
 ## THE CHALLENGE
 
 ### Install the provided project:
-1. Fork the Git repo: https://github.com/RingierIMU/candidate-challenge-mkt-cube
-1. Clone your forked repo to your local machine
+1. Download this Git repo: https://github.com/RingierIMU/candidate-challenge-mkt-cube and extract it
+1. Setup the newly downloaded project as a git repo and link it up to a new repo on Github
 1. Copy `.env.example` to `.env`
 1. Run `composer install`
 1. Run `php artisan key:generate`
